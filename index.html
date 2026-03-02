@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Job portal</title>
+    <link rel="stylesheet" href="style.css">
+
+<body>
+    <nav class="navbar">
+        <div class="logo">
+            <span class="icon">🏢</span>
+            <span class="brand">Job Portal</span>
+        </div>
+        <div class="nav-right">
+            <span class="admin-icon" href="#">🎟️</span>
+            <span>Admin</span>
+        </div>
+    </nav>
+    <section class="main">
+        <div class="main-content">
+            <span class="badge">🏢Job Portal</span>
+            <h1>Find Your Dream Job</h1>
+            <p>
+                Browse thousands of opportunities from top companies.
+                Select a company and role to get started.
+            </p>
+        </div>
+        <div class="search-card">
+            <label for="company">Company</label>
+            <select id="company">
+                <option value="">Select Company</option>
+            </select>
+
+            <label for="role">Role</label>
+            <select id="role">
+                <option value="">Select Role</option>
+            </select>
+
+
+            <button class="search-button" onclick="searchJobs()">🔎 Search Jobs</button>
+        </div>
+
+
+
+    </section>
+    <script src="data.js"></script>
+    <script src="app.js"></script>
+
+
+
+</body>
+
+</html>
