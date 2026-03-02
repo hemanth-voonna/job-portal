@@ -27,7 +27,7 @@ body {
     align-items: center;
     gap: 8px;
     font-weight: bold;
-    f
+    
 }
 
 .nav-right {
@@ -97,6 +97,7 @@ body {
         flex-direction: column;
         align-items: center;
     }
+}
 
     .form-group {
         display: flex;
